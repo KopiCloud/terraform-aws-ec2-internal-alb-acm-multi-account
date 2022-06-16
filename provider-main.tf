@@ -19,7 +19,7 @@ provider "aws" {
   region     = var.aws_region
 }
 
-# AWS Provider
+# Main AWS Provider
 provider "aws" {
   alias      = "main"
   access_key = var.aws_access_key_main
